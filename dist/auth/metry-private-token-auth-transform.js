@@ -16,7 +16,7 @@ class MetryPrivateTokenAuthTransform {
         ...options.headers
       };
       resolve({ ...options,
-        ...headers
+        headers
       });
     });
   }
